@@ -46,5 +46,3 @@
 # a.insert(1, "facebook")
 # a.insert(3, "hoàng")
 # print(a)
-n = int(input())
-a = [int(input()) for_in range(n)]
