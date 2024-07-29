@@ -34,15 +34,17 @@
 # a[-1] = "duong"
 # a[-2] = "hoàng"
 # print(a)
-#thêm một phần tử vào list sủ dụng hàm append()
-a = [1, "python", 'dương']
-
-a.append("c#")
-a.append("java")
-print(a)
-#thêm một phần tử vào list ở một vị trí bất kì 
-a=["apple", 1, 2, 3,"python", ]
-
-a.insert(1, "facebook")
-a.insert(3, "hoàng")
-print(a)
+# #thêm một phần tử vào list sủ dụng hàm append()
+# a = [1, "python", 'dương']
+#
+# a.append("c#")
+# a.append("java")
+# print(a)
+# #thêm một phần tử vào list ở một vị trí bất kì
+# a=["apple", 1, 2, 3,"python", ]
+#
+# a.insert(1, "facebook")
+# a.insert(3, "hoàng")
+# print(a)
+n = int(input())
+a = [int(input()) for_in range(n)]
